@@ -177,10 +177,41 @@ body {
   font-weight: 300;
   margin-top: -30px;
 }
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.desc-1,
+.desc-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.desc-1 div,
+.desc-2 div {
+  font-size: 14px;
+}
+.desc-1 img,
+.desc-2 img {
+  width: 20px;
+}
+
+.desc-1 .visibility,
+.desc-1 .humidity,
+.desc-2 .feels-like,
+.desc-2 .wind {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
 
 .addCard,
 .card {
-  width: 300px;
+  width: 320px;
   height: 375px;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.48);
